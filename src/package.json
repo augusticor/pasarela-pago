@@ -1,0 +1,29 @@
+{
+  "name": "pasarela-pago",
+  "version": "1.0.0",
+  "description": "pasarela de pago, node, mercado pago",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augusticor/pasarela-pago.git"
+  },
+  "keywords": [
+    "pasarela-pago",
+    "mercado-pago",
+    "node"
+  ],
+  "author": "augusticor",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/augusticor/pasarela-pago/issues"
+  },
+  "homepage": "https://github.com/augusticor/pasarela-pago#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mercadopago": "^1.5.6"
+  }
+}
